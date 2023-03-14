@@ -11,6 +11,14 @@
   display: none;
 }
 
+/* SECAO SUPERIOR */
+.superior__secao__container {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 10px;
+  overflow: scroll;
+}
 /* RODAPÉ */
 .rodape__container {
   display: flex;
