@@ -10,6 +10,12 @@
   display: none;
 }
 
+.rodape__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 @media screen and (min-width: 820px) {
   .cabecalho__pesquisar__item {
     display: block;
