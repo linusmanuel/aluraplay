@@ -58,8 +58,23 @@
 
 @media screen and (min-width: 820px) {
   /* CABEÇALHO */
+  .cabecalho__container {
+    padding-left: 80px;
+  }
   .cabecalho__pesquisar__item {
     display: block;
+  }
+
+  .menu__container {
+    bottom: 0%;
+    height: 100%;
+    width: 80px;
+  }
+
+  .menu__lista {
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
   }
 
   /* RODAPÉ */
