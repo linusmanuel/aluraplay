@@ -98,5 +98,32 @@
 
   .menu__lista {
     height: auto;
+    gap: 15px;
+  }
+
+  .menu__itens {
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .menu__lista:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+
+  .jogos {
+    order: 2;
+  }
+
+  .filmes {
+    order: 3;
+  }
+
+  .videopremium {
+    order: 1;
+  }
+
+  .maispagina {
+    order: 4;
   }
 }
